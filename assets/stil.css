@@ -289,9 +289,9 @@ p{margin:0 0 1.1em;max-width:68ch;text-wrap:pretty}
 .einsatz__raster{display:grid;gap:2.5rem;align-items:center}
 @media (min-width:64rem){.einsatz__raster{grid-template-columns:1.1fr 1fr;gap:4.5rem}}
 .ortsschilder{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem;list-style:none;margin:0;padding:0}
-@media (min-width:34rem) and (max-width:63.99rem){.ortsschilder{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:34rem){.ortsschilder{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .ortsschilder__breit{grid-column:1 / -1}
-.ortsschilder li{display:grid;place-items:center;min-height:4.3rem;padding:.6em 1em;
+.ortsschilder li{display:grid;place-items:center;min-height:3.4rem;padding:.5em .7em;font-size:.92rem;
   background:var(--gelb);color:#1d1d1f;font-weight:600;text-align:center;
   border:3px solid #1d1d1f;border-radius:10px;
   box-shadow:inset 0 0 0 2px var(--gelb),inset 0 0 0 3.5px rgb(29 29 31 / .55),0 4px 14px -6px rgb(0 0 0 / .5)}
