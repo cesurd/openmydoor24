@@ -22,7 +22,7 @@
 <link rel="preload" as="image" href="assets/bilder/Openmydoor24-Aachen-main-Bild-1-panoramaView-1.webp" imagesrcset="assets/bilder/Openmydoor24-Aachen-main-Bild-1-panoramaView-1-768.webp 768w, assets/bilder/Openmydoor24-Aachen-main-Bild-1-panoramaView-1.webp 1920w" imagesizes="100vw" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/schrift/poppins-400.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/schrift/poppins-600.woff2">
-<link rel="stylesheet" href="assets/stil.css?v=20260831n">
+<link rel="stylesheet" href="assets/stil.css?v=20260831o">
 </head>
 <body>
 <a class="sprung" href="#inhalt">Zum Hauptinhalt springen</a>
@@ -138,18 +138,24 @@
         <h2>Feste Preise für die Türöffnung</h2>
         <p class="leise">Sie erfahren den Preis am Telefon – vor der Anfahrt, nicht danach.</p>
       </div>
-      <table class="preise">
-        <caption class="sr-only">Preise für Türöffnungen nach Wochentag und Uhrzeit</caption>
-        <thead><tr><th scope="col">Tag</th><th scope="col">Zeit</th><th scope="col">Preis</th></tr></thead>
-        <tbody>
-          <tr><td class="preise__tag" data-label="Tag">Montag – Freitag</td><td data-label="Zeit">08:00 – 17:00 Uhr</td><td data-label="Preis">75,00 €</td></tr>
-          <tr><td class="preise__tag" data-label="Tag">Montag – Freitag</td><td data-label="Zeit">17:00 – 22:00 Uhr</td><td data-label="Preis">100,00 €</td></tr>
-          <tr><td class="preise__tag" data-label="Tag">Montag – Freitag</td><td data-label="Zeit">ab 22:00 Uhr (Fr bis 02:00)</td><td data-label="Preis">125,00 €</td></tr>
-          <tr><td class="preise__tag" data-label="Tag">Samstag</td><td data-label="Zeit">08:00 – 14:00 Uhr</td><td data-label="Preis">100,00 €</td></tr>
-          <tr><td class="preise__tag" data-label="Tag">Samstag</td><td data-label="Zeit">14:00 – 02:00 Uhr</td><td data-label="Preis">125,00 €</td></tr>
-          <tr><td class="preise__tag" data-label="Tag">Sonn- &amp; Feiertag</td><td data-label="Zeit">08:00 – 00:00 Uhr</td><td data-label="Preis">125,00 €</td></tr>
-        </tbody>
-      </table>
+      <div class="preiskarten">
+        <section class="preiskarte" aria-label="Preise Montag bis Freitag">
+          <h3>Montag – Freitag</h3>
+          <ul>
+            <li><span class="preiskarte__zeit">08:00 – 17:00&nbsp;Uhr</span><span class="preiskarte__preis">75,00&nbsp;€</span></li>
+            <li><span class="preiskarte__zeit">17:00 – 22:00&nbsp;Uhr</span><span class="preiskarte__preis">100,00&nbsp;€</span></li>
+            <li><span class="preiskarte__zeit">ab 22:00 Uhr <small>Mo–Do bis 00:00, Fr bis 02:00</small></span><span class="preiskarte__preis">125,00&nbsp;€</span></li>
+          </ul>
+        </section>
+        <section class="preiskarte" aria-label="Preise am Wochenende und an Feiertagen">
+          <h3>Wochenende &amp; Feiertage</h3>
+          <ul>
+            <li><span class="preiskarte__zeit">Samstag, 08:00 – 14:00&nbsp;Uhr</span><span class="preiskarte__preis">100,00&nbsp;€</span></li>
+            <li><span class="preiskarte__zeit">Samstag, 14:00 – 02:00&nbsp;Uhr</span><span class="preiskarte__preis">125,00&nbsp;€</span></li>
+            <li><span class="preiskarte__zeit">Sonn- &amp; Feiertag, 08:00 – 00:00&nbsp;Uhr</span><span class="preiskarte__preis">125,00&nbsp;€</span></li>
+          </ul>
+        </section>
+      </div>
       <p class="klein leise mittig" style="margin-top:1rem">Alle Preise verstehen sich inklusive 19&nbsp;% Mehrwertsteuer und zuzüglich Anfahrtskosten. Nicht im Preis enthalten sind zusätzliche Lohnkosten bei erschwerten Türöffnungen, insbesondere bei abgeschlossenen Türen, sowie Montagearbeiten nach der Türöffnung und anfallende Materialkosten.</p>
       <p class="mittig" style="margin-top:1.25rem"><a class="knopf knopf--hell" href="/tueroeffnung/">Mehr zur Türöffnung</a> <a class="knopf knopf--hell" href="/preise/">Alle Preise im Detail</a></p>
     </div>

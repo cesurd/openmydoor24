@@ -355,3 +355,17 @@ h1,h2,h3,p,li{overflow-wrap:break-word}
 }
 @media (max-width:26rem){.hero__ctas .knopf{font-size:.8rem;padding:.65em .75em}}
 @media (max-width:22.5rem){.hero__ctas{flex-wrap:wrap}}
+
+/* ---------- Preiskarten: Woche / Wochenende getrennt ---------- */
+.preiskarten{display:grid;gap:1.25rem;max-width:52rem;margin-inline:auto}
+@media (min-width:48rem){.preiskarten{grid-template-columns:1fr 1fr;align-items:stretch}}
+.preiskarte{background:var(--weiss);border-radius:18px;padding:1.5rem 1.75rem;
+  box-shadow:0 1px 2px rgb(17 58 81 / .05),0 14px 34px -14px rgb(17 58 81 / .16)}
+.preiskarte h3{font-size:1.05rem;margin:0 0 .6rem;padding-bottom:.6rem;border-bottom:2px solid var(--gelb)}
+.preiskarte ul{list-style:none;margin:0;padding:0}
+.preiskarte li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+  padding-block:.85rem;border-bottom:1px solid var(--linie)}
+.preiskarte li:last-child{border-bottom:none;padding-bottom:0}
+.preiskarte__zeit{font-weight:500}
+.preiskarte__zeit small{display:block;font-size:.8rem;color:var(--text-leise);font-weight:400}
+.preiskarte__preis{font-weight:700;color:var(--blau);white-space:nowrap;font-variant-numeric:tabular-nums}
