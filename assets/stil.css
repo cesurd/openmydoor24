@@ -291,6 +291,7 @@ p{margin:0 0 1.1em;max-width:68ch;text-wrap:pretty}
 .ortsschilder{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem;list-style:none;margin:0;padding:0}
 @media (min-width:34rem){.ortsschilder{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .ortsschilder__breit{grid-column:1 / -1}
+.ortsschilder small{font-size:.72em;font-weight:500;opacity:.65;margin-left:.3em}
 .ortsschilder li{display:grid;place-items:center;min-height:3.4rem;padding:.5em .7em;font-size:.92rem;
   background:var(--gelb);color:#1d1d1f;font-weight:600;text-align:center;
   border:3px solid #1d1d1f;border-radius:10px;
