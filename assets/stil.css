@@ -369,3 +369,7 @@ h1,h2,h3,p,li{overflow-wrap:break-word}
 .preiskarte__zeit{font-weight:500}
 .preiskarte__zeit small{display:block;font-size:.8rem;color:var(--text-leise);font-weight:400}
 .preiskarte__preis{font-weight:700;color:var(--blau);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* ---------- Button-Gruppen: einheitliche Abstände (statt Zeilenumbruch-Lücken) ---------- */
+p:has(> .knopf){display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+.mittig:has(> .knopf){justify-content:center}
