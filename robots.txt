@@ -1,0 +1,10 @@
+# openmydoor24.de
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /zaehler/
+Disallow: /wp-json/
+Disallow: /?s=
+
+Sitemap: https://openmydoor24.de/sitemap-neu.xml
+Sitemap: https://openmydoor24.de/sitemap_index.xml
