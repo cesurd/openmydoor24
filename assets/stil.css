@@ -105,7 +105,6 @@ h1,h2,h3,h4,p,li,summary,td{-webkit-hyphens:auto;hyphens:auto}
 .hero__gruss{max-width:none;color:var(--orange);text-transform:uppercase;letter-spacing:.16em;
   font-size:clamp(.8rem,.75rem + .3vw,.95rem);font-weight:600;margin:0 0 .75rem}
 .hero__titel{font-size:clamp(1.8rem,1.1rem + 3.2vw,3.4rem);margin:0 0 .8rem}
-.hero__titel .punkt{color:var(--orange)}
 .hero__haken{display:grid;gap:.6rem 2.5rem;justify-content:center;margin:0 0 1.5rem;padding:0;list-style:none;
   grid-template-columns:1fr;text-align:left;max-width:34rem;margin-inline:auto}
 @media (min-width:34rem){.hero__haken{grid-template-columns:repeat(2,auto)}}
